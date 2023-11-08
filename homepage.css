@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box ;
+}
+
+
+.navbar {
+    width: 1440px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+/* first box */
+.nav-logo {
+    height: 80px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+    margin-left: 0px;
+}
+
+.logo {
+    background-image:url(logo.png);
+    background-size: cover;
+    height: 32px;
+    width: 122px;
+}
+/* second box */
+.nav-menu {
+    height: 80px;
+    width: 1060px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+    
+}
+
+.menulist {
+    height: 80px;
+    width: 619px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* button */
+
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.button:hover {
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.button1 {
+    height: 32px;
+    width: 47px;    
+}
+
+.button2 {
+    height: 32px;
+    width: 60px;
+}
+
+.button3 {
+    height: 32px;
+    width: 83px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button4 {
+    height: 32px;
+    width: 85px;
+}
+
+.button5 {
+    height: 32px;
+    width: 85px;
+}
+
+.button6 {
+    height: 32px;
+    width: 69px;
+}
+
+.button7 {
+    height: 32px;
+    width: 89px;
+}
+
+.button8 {
+    height: 32px;
+    width: 95px;
+}
+
+.button9 {
+    height: 32px;
+    width: 63px;
+}
+
+.button10 {
+    height: 32px;
+    width: 66px;
+}
+
+.button11 {
+    height: 32px;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    
+}
+
+
+.help-op {
+    height: 80px;
+    width: 226px;
+    display: flex;
+    align-items: center;
+    margin-right: 54px;
+    
+}
+
+/* icons */
+
+.nav-icons {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.nav-search {
+    height: 80px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    
+}
+.nav-cart {
+    height: 80px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+   
+
+}
+
+.nav-user {
+    height: 80px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    
+}
+ 
+i {
+    padding-left: 8x;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+
+/* big front image */
+.big-img {
+    height: 634px;
+    width: 1425px;
+    background-image: url(big_img.jpeg);
+    background-size: cover;
+}
+
+.device-fold {
+    height:57px ;
+    width: 620px;
+    font-size: 48px;
+    font-weight: 700;
+    position:absolute;
+    left: 700px;
+    bottom: 450px;
+}
+
+.fold-des {
+    height: 46px;
+    width: 620px;
+    font-size: 18px;
+}
+
+.fold-text {
+    position: absolute;
+    left: 710px;
+    bottom: 390px;
+}
+
+.fold-text1 {
+    
+    position: absolute;
+    left: 710px;
+    bottom: 320px;
+    font-size: 16px;
+    font-weight: 550;
+    border-bottom: 2px solid black;
+}
+
+.fold-text2 {
+    height: 37px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 825px;
+    bottom: 314px;
+    border-radius: 1.1rem;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* big-txt */
+.container-text {
+    height:112px ;
+    width: 1425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.con-txt {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 1392px;
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+}
+/* tab list */
+.tab-list {
+    height: 58px;
+    width: 1440px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab1 {
+    height: 58px;
+    width:60px ;
+    margin-right: 48px;
+}
